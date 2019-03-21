@@ -9,6 +9,7 @@ import java.util.List;
 
 @Service
 public class ServiceProviderService implements ServiceProviderServiceI{
+
     private ServiceProviderRepository serviceProviderRepository;
 
     @Autowired
@@ -33,7 +34,7 @@ public class ServiceProviderService implements ServiceProviderServiceI{
 
     @Override
     public List<ServiceProvider> findAll() {
-        return null;//serviceProviderRepository.findAll();
+        return serviceProviderRepository.findAll();
     }
 
     @Override

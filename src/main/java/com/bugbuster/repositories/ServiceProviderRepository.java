@@ -1,10 +1,10 @@
 package com.bugbuster.repositories;
 
 import com.bugbuster.models.ServiceProvider;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ServiceProviderRepository extends CrudRepository<ServiceProvider, Long> {
+public interface ServiceProviderRepository extends JpaRepository<ServiceProvider, Long> {
 
 }
