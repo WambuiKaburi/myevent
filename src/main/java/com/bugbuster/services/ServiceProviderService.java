@@ -1,6 +1,6 @@
 package com.bugbuster.services;
 
-import com.bugbuster.models.ServiceProvider;
+import com.bugbuster.models.serviceprovider.ServiceProvider;
 import com.bugbuster.repositories.ServiceProviderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,7 +24,8 @@ public class ServiceProviderService implements ServiceProviderServiceI{
 
     @Override
     public ServiceProvider updateServiceProvider(ServiceProvider serviceProvider, Long id) {
-        return serviceProviderRepository.save(serviceProvider);
+        findById(serviceProvider.getId());
+        return serviceProviderRepository.saveAndFlush(serviceProvider);
     }
 
     @Override

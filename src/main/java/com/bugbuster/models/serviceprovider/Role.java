@@ -1,4 +1,4 @@
-package com.bugbuster.models;
+package com.bugbuster.models.serviceprovider;
 
 public enum Role {
     DJ, MC, PHOTOGRAPHER, VIDEOGRAPHER, CATERER, TENTS_SUPPLIER, CHAIRS, FLORIST, BAKER, MIXOLOGIST,

@@ -1,4 +1,4 @@
-package com.bugbuster.models;
+package com.bugbuster.models.serviceprovider;
 
 public enum County {
     Nairobi, Kisumu, Mombasa

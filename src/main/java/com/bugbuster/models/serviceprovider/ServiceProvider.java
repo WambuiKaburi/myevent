@@ -1,4 +1,4 @@
-package com.bugbuster.models;
+package com.bugbuster.models.serviceprovider;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,7 @@
 package com.bugbuster.services;
 
 
-import com.bugbuster.models.ServiceProvider;
+import com.bugbuster.models.serviceprovider.ServiceProvider;
 
 import java.util.List;
 

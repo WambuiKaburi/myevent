@@ -1,6 +1,6 @@
 package com.bugbuster.controllers;
 
-import com.bugbuster.models.ServiceProvider;
+import com.bugbuster.models.serviceprovider.ServiceProvider;
 import com.bugbuster.services.ServiceProviderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
