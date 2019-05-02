@@ -17,4 +17,8 @@ public class Customer {
     private String password;
     @Embedded
     private Address address;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
